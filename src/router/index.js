@@ -22,7 +22,7 @@ const routes = [
     component: AdministracionView,
   },
   {
-    path: '/:pathMatch(.)',
+    path: '/:pathMatch(.*)*',
     name: 'NotFound',
     component: NotFound,
   },
